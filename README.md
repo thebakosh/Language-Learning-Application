@@ -40,16 +40,36 @@ CREATE TABLE grammar_questions (
 
 INSERT INTO vocabulary_questions (word, image_path, option1, option2, option3, option4, correct_answer)
 VALUES
-    ('Astronaut', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\astronaut.png', 'Astronaut', '', 'Doctor', 'Engineer', 'Teacher', 'Astronaut'),
-    ('Car', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\car.png', 'Bike', 'Plain', 'Car', 'Helicoptor', 'Car'),
-    ('Money', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\money.png', 'Document', 'Money', 'Coin', 'ID cart', 'Money'),
-    ('Dog', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\dog.png', 'Snake', 'Dog', 'Snail', 'Cat', 'Dog'),
-    ('Door', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\door.png', 'Bed', 'Desk', 'Window', 'Door', 'Door'),
-    ('Apple', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\apple.png', 'Apple', 'Banana', 'Orange', 'Grapes', 'Apple'),
-    ('Book', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\book.png', 'Copybook', 'Notebook', 'Magazine', 'Book', 'Book'),
-    ('House', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\house.png', 'House', 'Museum', 'Bank', 'Police Station', 'House'),
-    ('Laptop', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\laptop.png', 'Phone', 'Laptop', 'Gloshka', 'Tablet', 'Laptop'),
-    ('Sun', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\lsun.png', 'Moon', 'Air', 'Clouds', 'Sun', 'Sun'),
+('Astronaut', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\astronaut.png',
+ 'Astronaut', 'Doctor', 'Engineer', 'Teacher', 'Astronaut'),
+
+('Car', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\car.png',
+ 'Bike', 'Plane', 'Car', 'Helicopter', 'Car'),
+
+('Money', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\money.png',
+ 'Document', 'Money', 'Coin', 'ID card', 'Money'),
+
+('Dog', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\dog.png',
+ 'Snake', 'Dog', 'Snail', 'Cat', 'Dog'),
+
+('Door', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\door.png',
+ 'Bed', 'Desk', 'Window', 'Door', 'Door'),
+
+('Apple', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\apple.png',
+ 'Apple', 'Banana', 'Orange', 'Grapes', 'Apple'),
+
+('Book', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\book.png',
+ 'Copybook', 'Notebook', 'Magazine', 'Book', 'Book'),
+
+('House', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\house.png',
+ 'House', 'Museum', 'Bank', 'Police Station', 'House'),
+
+('Laptop', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\laptop.png',
+ 'Phone', 'Laptop', 'Headphones', 'Tablet', 'Laptop'),
+
+('Sun', 'C:\\Users\\ryshy\\IdeaProjects\\DavaBahti\\src\\main\\images\\sun.png',
+ 'Moon', 'Air', 'Clouds', 'Sun', 'Sun');
+
 
 INSERT INTO grammar_questions (question_text, option1, option2, option3, option4, correct_answer)
 VALUES
